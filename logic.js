@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ...
     document.querySelector('#check').addEventListener('click', function() {
         let input = document.querySelector('input');
-        if (input.value === 'Irlanda') {
+        if (input.value === 'Irlanda' || input.value === 'irlanda' || input.value === 'IRLANDA') {
             input.style.backgroundColor = '#2E8B57';
             document.querySelector('#feedback2').innerHTML = 'Acertou!';
         } else {
