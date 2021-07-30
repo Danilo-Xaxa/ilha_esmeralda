@@ -18,9 +18,9 @@ body {
 .jumbotron {
     background-color: #2E8B57; /*cor do fundo do cabeçalho*/
     color: #fff; /*cor do h1*/
-    margin-bottom: 2rem;
-    padding: 2rem 1rem;
+    padding: 0.1em;
     text-align: center;
+    margin: 0;
 }
 
 .section {
@@ -50,6 +50,7 @@ h3 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    margin-bottom: 3px;
 }
 
 button, input[type="submit"] {
