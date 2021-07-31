@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Responde o palpite da questão aberta
     document.querySelector('#check').addEventListener('click', function() {
         let input = document.querySelector('input')
-        if (input.value.toLowerCase() === 'irlanda' || 'republica da irlanda' || 'república da irlanda') {
+        if (['irlanda', 'republica da irlanda', 'república da irlanda'].includes(input.value.toLowerCase())) {
             input.style.backgroundColor = '#2E8B57'
             document.querySelector('#feedback2').innerHTML = 'Acertou!'
         } else {
